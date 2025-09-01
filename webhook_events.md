@@ -4,17 +4,16 @@
 | access_token_revoked | API token revoked |
 | administration_activated | Administration activated |
 | administration_added | Administration added |
-| administration_adyen_offboarding_performed_by_admin | Adyen offboarding performed by admin |
+| administration_automatic_bookers_activated | Activated automatic linking of transactions |
+| administration_automatic_bookers_deactivated | Deactivated automatic linking of transactions |
 | administration_cancelled | Removal of administration requested |
 | administration_changed | Administration updated |
+| administration_data_analysis_permission_unset | Data analysis permission withdrawn |
+| administration_data_analysis_permission_set | Data analysis permission given |
 | administration_deleted | Removal of administration requested |
 | administration_reactivated | Administration reactivated |
 | administration_removed | Administration deleted |
 | administration_suspended | Administration suspended |
-| administration_automatic_bookers_activated | Activated automatic linking of transactions |
-| administration_automatic_bookers_deactivated | Deactivated automatic linking of transactions |
-| administration_data_analysis_permission_unset | Data analysis permission withdrawn |
-| administration_data_analysis_permission_set | Data analysis permission given |
 | administration_details_edited | Administration changed |
 | administration_id_verified_for_banking_authorization_requirement_activated | New payment rights activated |
 | administration_moneybird_banking_requested | Requested Moneybird Business Account |
@@ -24,26 +23,6 @@
 | administration_payments_without_proof_deactivated | Deactivated payments without proof |
 | administration_update_period_locked_until | Locked period updated |
 | administration_legacy_tax_number_updated | Sales tax number updated |
-| adviser_updated | Adviser updated |
-| adviser_created | Expert created |
-| adviser_deleted | Expert deleted |
-| adviser_updated_photo | Profile image added |
-| adviser_email_concept_state_sent | E-mail about concept state sent |
-| adviser_email_published_state_sent | E-mail about published state sent |
-| adviser_experience_created | Experience created |
-| adviser_experience_updated | Experience updated |
-| adviser_experience_deleted | Experience deleted |
-| adviser_education_created | Education created |
-| adviser_education_updated | Education updated |
-| adviser_education_deleted | Education deleted |
-| adviser_company_created | Company created |
-| adviser_company_updated | Company updated |
-| adviser_company_photo | Company image added |
-| adviser_company_location_created | Location created |
-| adviser_company_location_deleted | Location deleted |
-| adviser_company_review_deleted | Deleted accountant company review |
-| advisers_location_created | Location created |
-| advisers_location_deleted | Location deleted |
 | adyen_banking_bank_transfer_permission_created | Permission to payment rights given |
 | adyen_banking_bank_transfer_permission_revoked | Permission for payment rights withdrawn |
 | adyen_payment_instrument_created | Moneybird card created |
@@ -53,8 +32,6 @@
 | adyen_payment_instrument_network_token_created | Moneybird card wallet created |
 | adyen_payment_instrument_network_token_updated | Moneybird card wallet updated |
 | adyen_payment_instrument_pin_changed | Pin changed for Moneybird card |
-| central_contact_updated | Central contact updated |
-| central_contact_destroyed | Central Contact destroyed |
 | company_assets_asset_created | Asset created |
 | company_assets_asset_destroyed | Asset destroyed |
 | company_assets_asset_updated | Asset updated |
@@ -101,7 +78,6 @@
 | contact_person_updated | Contact person updated |
 | contact_sponsored_subscription_link_requested | Link for a 100% discount subscription requested |
 | credit_invoice_created_from_original | Credit note created based on invoice |
-| customer_invited | Administration invited |
 | default_identity_updated | Default sender address updated |
 | default_identity_verification_document_uploaded | Verification document uploaded to external partner |
 | default_tax_rate_created | Default VAT rate added |
@@ -145,14 +121,6 @@
 | estimate_signed_sender | Quote signed by sender |
 | estimate_state_changed_to_late | Quote has expired |
 | estimate_updated | Quote updated |
-| expert_contact_request | Contact requested with Expert |
-| expert_published | Expert published online for the first time. |
-| expert_status_invited | Expert status invited |
-| expert_status_revoked | Expert status revoked |
-| expert_status_withdrawn | Expert status withdrawn |
-| expert_warning_month0 | First warning for Expert status revocation sent |
-| expert_warning_month6 | Six-month-warning for Expert status revocation sent |
-| expert_warning_month11 | Final warning for Expert status revocation sent |
 | external_sales_invoice_created | External invoice created |
 | external_sales_invoice_destroyed | External invoice deleted |
 | external_sales_invoice_marked_as_dubious | Marked external invoice as dubious |
@@ -364,11 +332,10 @@
 | todo_created | To-do added |
 | todo_destroyed | To-do deleted |
 | todo_opened | To-do viewed |
-| ultimate_beneficial_owner_verification_document_uploaded | Verification for ultimate beneficial owner uploaded |
 | ultimate_benificial_owner_created | Ultimate beneficial owner created |
 | ultimate_benificial_owner_updated | Ultimate beneficial owner updated |
+| ultimate_beneficial_owner_verification_document_uploaded | Verification for ultimate beneficial owner uploaded |
 | user_invited | User invited |
-| user_invited_for_call | User invited for a call |
 | user_removed | User deleted |
 | vat_return_created | VAT Return filed |
 | vat_return_received | VAT Return is received by the tax authorities |
@@ -381,3 +348,107 @@
 | workflow_deactivated | Workflow deactivated |
 | workflow_destroyed | Workflow deleted |
 | workflow_updated | Workflow updated |
+
+
+The following event groups are available, which are matched on events starting with the group name:
+
+- `access_token`
+- `administration`
+- `administration_automatic_bookers`
+- `administration_data_analysis_permission`
+- `administration_payments_without_proof`
+- `adyen`
+- `adyen_banking`
+- `banking_bank_transfer_permission`
+- `adyen_payment_instrument`
+- `payment_instrument_network_token`
+- `company_assets`
+- `company_assets_asset`
+- `company_assets_disposal`
+- `company_assets_source`
+- `company_assets_value_changes`
+- `value_changes_linear`
+- `value_changes_arbitrary`
+- `value_changes_divestment`
+- `value_changes_full_depreciation`
+- `value_changes_manual`
+- `company_assets_value_change_plan`
+- `booking_rule`
+- `contact`
+- `contact_mandate_request`
+- `contact_person`
+- `default_identity`
+- `default_tax_rate`
+- `direct_bank_link`
+- `direct_debit`
+- `direct_debit_incoming_mandate`
+- `direct_debit_transaction`
+- `document`
+- `document_style`
+- `email_domain`
+- `estimate`
+- `estimate_created_from`
+- `estimate_mark`
+- `estimate_send`
+- `estimate_state_changed`
+- `external_sales_invoice`
+- `external_sales_invoice_marked_as`
+- `external_sales_invoice_state_changed`
+- `feature_preference`
+- `feed_entry`
+- `financial_account`
+- `financial_account_bank_link`
+- `financial_statement`
+- `goal`
+- `identity`
+- `intra_community_transactions_declaration`
+- `ledger_account`
+- `ledger_account_booking`
+- `legal_terms_acceptation`
+- `legal_terms_acceptation_email`
+- `mobile_app_authentication_factor`
+- `mollie_credential`
+- `moneybird_banking_transfer`
+- `note`
+- `order`
+- `payment`
+- `payment_method`
+- `payment_transaction`
+- `payment_transaction_batch`
+- `personal_iban`
+- `ponto`
+- `ponto_direct_bank_link`
+- `product`
+- `project`
+- `purchase_transaction`
+- `purchase_transaction_batch`
+- `recurring_sales_invoice`
+- `recurring_sales_invoice_created_from`
+- `sales_invoice`
+- `sales_invoice_marked_as`
+- `sales_invoice_revert`
+- `sales_invoice_send`
+- `sales_invoice_state_changed`
+- `send_payment`
+- `smart_transfer`
+- `smart_transfer_rule`
+- `smart_transfer_trigger`
+- `subgoal`
+- `subscription`
+- `subscription_template`
+- `task_lists`
+- `task_lists_list`
+- `task_lists_list_template`
+- `task_lists_task`
+- `tax`
+- `tax_rate`
+- `time_entry`
+- `todo`
+- `ultimate_benificial_owner`
+- `ultimate_beneficial_owner`
+- `user`
+- `vat`
+- `vat_return`
+- `vat_suppletion`
+- `verification`
+- `workflow`
