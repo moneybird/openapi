@@ -84,8 +84,8 @@
 | direct_bank_link_activated | Bank link activated |
 | direct_debit_incoming_mandate_created | Direct debit mandate created |
 | direct_debit_incoming_mandate_updated | Direct debit mandate updated |
-| direct_debit_transaction_created | Direct debit batch created |
-| direct_debit_transaction_deleted | Direct debit batch deleted |
+| direct_debit_transaction_created | Marked for payment through direct debit |
+| direct_debit_transaction_deleted | Unmarked for payment through direct debit |
 | document_attachment_skipped | Attachment couldn't be saved from email |
 | document_created_from_original | Document created based on an original document |
 | document_destroyed | Document deleted |
