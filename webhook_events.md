@@ -307,6 +307,7 @@
 | task_lists_list_template_created | Task list template created |
 | task_lists_list_template_destroyed | Task list template destroyed |
 | task_lists_list_template_published | Task list template published |
+| task_lists_list_template_hidden | Task list template hidden |
 | task_lists_list_template_updated | Task list template updated |
 | task_lists_task_completed | Task completed |
 | task_lists_task_created | Task created |
