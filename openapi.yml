@@ -42285,6 +42285,7 @@ paths:
     post:
       summary: Create a time entry
       description: |-
+        API to post a time entry. Used to create time entries to record time spent by an employee.
         Api user needs access to both sales invoices and time entries for this action.
         `started_at` and `ended_at` are rounded down to full minutes when creating a time entry, with a minimum of 1 minute between them.
       tags:
@@ -42310,7 +42311,7 @@ paths:
                     started_at:
                       type: string
                       description: |
-                        ISO8601 formatted timestamp (e.g., 2023-10-27T10:00:00Z).
+                        ISO8601 formatted timestamp (e.g., 2023-10-27T10:00:00Z). Time is in UTC.
                         Other formats are also accepted and will be coerced to a timestamp if possible.
                     ended_at:
                       type: string
@@ -42319,6 +42320,7 @@ paths:
                         Other formats are also accepted and will be coerced to a timestamp if possible.
                     description:
                       type: string
+                      description: A description on how the time was spent. May be shown on the invoice.
                     contact_id:
                       $ref: '#/components/schemas/identifier'
                       description: Should be a valid contact id.
