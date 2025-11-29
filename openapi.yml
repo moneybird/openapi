@@ -42306,7 +42306,7 @@ paths:
                   properties:
                     user_id:
                       $ref: '#/components/schemas/identifier'
-                      description: Should be a valid user id.
+                      description: The employee for which the time should be entered. Should be a valid user id.
                     started_at:
                       type: string
                       description: |
