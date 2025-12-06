@@ -42339,6 +42339,7 @@ paths:
                     - user_id
                     - started_at
                     - description
+                    - billable
               required: []
             examples:
               CreateABasicTimeEntry:
