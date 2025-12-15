@@ -89,7 +89,6 @@
 | document_attachment_skipped | Attachment couldn't be saved from email |
 | document_created_from_original | Document created based on an original document |
 | document_destroyed | Document deleted |
-| document_details_prediction_added | Prediction for document details added to document |
 | document_expired | Document expired |
 | document_recurred | Recurring document created |
 | document_saved | Document saved |
