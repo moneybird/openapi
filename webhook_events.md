@@ -337,10 +337,10 @@
 | ultimate_beneficial_owner_verification_document_uploaded | Verification for ultimate beneficial owner uploaded |
 | user_invited | User invited |
 | user_removed | User deleted |
-| vat_return_created | VAT Return filed |
+| vat_return_created | VAT Return created |
 | vat_return_received | VAT Return is received by the tax authorities |
 | vat_return_paid | VAT Return paid |
-| vat_suppletion_created | Digital supplementary VAT Return submitted |
+| vat_suppletion_created | Digital supplementary VAT Return created |
 | vat_suppletion_received | Supplementary VAT Return is received by the tax authority |
 | vat_suppletion_paid | Supplementary VAT Return paid |
 | verification_destroyed | Verification deleted |
