@@ -225,7 +225,7 @@
 | purchase_transaction_pending | Payment pending |
 | purchase_transaction_rejected | Payment rejected |
 | purchase_transaction_technically_validated | Payment technically approved by the bank |
-| recurring_sales_invoice_auto_send_forcefully_disabled | The invoice could not be sent automatically, sending automatically is disabled |
+| recurring_sales_invoice_auto_send_forcefully_disabled | The invoice could not be sent automatically, sending automatically is disabled. Re-enable automatic sending manually after resolving the issue. |
 | recurring_sales_invoice_created | Recurring invoice created |
 | recurring_sales_invoice_created_from_original | Recurring sales invoice created based on original invoice |
 | recurring_sales_invoice_created_from_original_recurring | Recurring invoices created based on the original  recurring invoice |
