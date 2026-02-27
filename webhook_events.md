@@ -166,7 +166,7 @@
 | legal_terms_acceptation_email_marked_as_spam | Legal terms are marked by the recipient as spam. |
 | legal_terms_acceptation_email_payload_too_large | Legal terms couldn't be sent to the recipient. The e-mail was too large to deliver. |
 | legal_terms_acceptation_email_previously_bounced | Legal terms couldn't be delivered to the recipient. Delivering e-mail to this recipient has failed before. |
-| legal_terms_acceptation_email_sender_limit | Legal terms couldn't be sent to the recipient. The sending limit was reached. |
+| legal_terms_acceptation_email_sender_limit | Legal terms couldn't be sent to the recipient. Blocked by Moneybird. |
 | legal_terms_acceptation_email_sent | Legal terms sent by e-mail. |
 | legal_terms_acceptation_updated | Legal terms updated |
 | mobile_app_authentication_factor_created | 2FA via the Moneybird app enabled |
