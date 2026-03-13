@@ -70,6 +70,7 @@
 | contact_mandate_request_initiated | Mandate request sent |
 | contact_mandate_request_succeeded | Mandate request succeeded |
 | contact_mandate_request_url_obtained | Mandate request URL obtained |
+| contact_mandate_destroyed | Mandate destroyed |
 | contact_merged | Contact was merged |
 | contact_online_authorization_link_requested | Contact has requested a link for viewing online sales invoices and estimates |
 | contact_paid_subscription_changed_to_sponsored | Paid subscription changed to sponsored |
