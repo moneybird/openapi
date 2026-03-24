@@ -78,6 +78,7 @@
 | contact_person_destroyed | Contact person deleted |
 | contact_person_updated | Contact person updated |
 | contact_sponsored_subscription_link_requested | Link for a 100% discount subscription requested |
+| contact_tax_number_validated | Tax number validated |
 | credit_invoice_created_from_original | Credit note created based on invoice |
 | default_identity_updated | Default sender address updated |
 | default_identity_verification_document_uploaded | Verification document uploaded to external partner |
