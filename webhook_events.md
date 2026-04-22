@@ -151,8 +151,6 @@
 | identity_created | Sender address added |
 | identity_destroyed | Sender address deleted |
 | identity_updated | Sender address updated |
-| intra_community_transactions_declaration_created | ICP statement created |
-| intra_community_transactions_declaration_received | ICP statement has been received by the Tax Authorities |
 | ledger_account_activated | Category activated |
 | ledger_account_booking_created | Transaction booked on category |
 | ledger_account_booking_destroyed | Link between transaction and category deleted |
@@ -339,12 +337,6 @@
 | ultimate_beneficial_owner_verification_document_uploaded | Verification for ultimate beneficial owner uploaded |
 | user_invited | User invited |
 | user_removed | User deleted |
-| vat_return_created | VAT Return created |
-| vat_return_received | VAT Return is received by the tax authorities |
-| vat_return_paid | VAT Return paid |
-| vat_suppletion_created | Digital supplementary VAT Return created |
-| vat_suppletion_received | Supplementary VAT Return is received by the tax authority |
-| vat_suppletion_paid | Supplementary VAT Return paid |
 | verification_destroyed | Verification deleted |
 | workflow_created | Workflow added |
 | workflow_deactivated | Workflow deactivated |
@@ -403,7 +395,6 @@ The following event groups are available, which are matched on events starting w
 - `financial_statement`
 - `goal`
 - `identity`
-- `intra_community_transactions_declaration`
 - `ledger_account`
 - `ledger_account_booking`
 - `legal_terms_acceptation`
@@ -449,8 +440,5 @@ The following event groups are available, which are matched on events starting w
 - `ultimate_benificial_owner`
 - `ultimate_beneficial_owner`
 - `user`
-- `vat`
-- `vat_return`
-- `vat_suppletion`
 - `verification`
 - `workflow`
