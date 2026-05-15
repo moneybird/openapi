@@ -3,7 +3,7 @@
   "info": {
     "title": "Moneybird API",
     "description": "The Moneybird API allows you to interact with a Moneybird account in a RESTful manner. For comprehensive and up-to-date information on authentication, endpoints, usage, webhooks, and best practices, please refer to the documentation at [developer.moneybird.com](https://developer.moneybird.com). All details, examples, and guides are available on their respective pages.",
-    "version": "v2-20260513-a971cbecaa",
+    "version": "v2-20260515-035d1aee6b",
     "termsOfService": "https://www.moneybird.nl/terms/",
     "contact": {
       "name": "Moneybird",
