@@ -175,6 +175,7 @@
 | mollie_credential_created | Link with Mollie created |
 | mollie_credential_destroyed | Link with Mollie removed |
 | moneybird_banking_transfer_initiated | Transfer started |
+| moneybird_banking_transfer_completed | Transfers completed |
 | moneybird_banking_transfer_failed | Transfer failed |
 | multi_factor_required | Mandatory multifactor authentication activated |
 | note_created | Note created |
