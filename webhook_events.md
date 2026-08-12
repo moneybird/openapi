@@ -188,15 +188,15 @@
 | payment_send_email | Thank You email was sent for payment |
 | payment_method_edited | Payment method updated |
 | payment_method_limit_updated | Payment method limit updated |
-| payment_transaction_authorized | Direct debit transaction approved by bank |
-| payment_transaction_awaiting_authorization | Direct debit transaction waiting for approval by bank |
+| payment_transaction_authorized | Direct debit transaction approved by the bank |
+| payment_transaction_awaiting_authorization | Direct debit transaction waiting for approval by the bank |
 | payment_transaction_batch_cancelled | Payment batch cancelled |
 | payment_transaction_batch_created | Payment batch created |
-| payment_transaction_executing | Direct debit transaction being executing |
-| payment_transaction_paid | Direct debit transaction accepted |
-| payment_transaction_pending | Direct debit transaction pending |
-| payment_transaction_rejected | Direct debit transaction rejected |
-| payment_transaction_technically_validated | Direct debit payment is technically approved by the bank |
+| payment_transaction_executing | Direct debit transaction being executed at the bank |
+| payment_transaction_paid | Direct debit transaction accepted by the bank |
+| payment_transaction_pending | Direct debit transaction pending at the bank |
+| payment_transaction_rejected | Direct debit transaction rejected by the bank |
+| payment_transaction_technically_validated | Direct debit payment technically approved by the bank |
 | personal_iban_created | Your IBAN recovery option set up |
 | personal_iban_destroyed | Your IBAN recovery option removed |
 | personal_iban_updated | Your IBAN recovery option updated |
@@ -215,16 +215,16 @@
 | project_destroyed | Project deleted |
 | project_updated | Project updated |
 | purchase_transaction_added_to_batch | Transaction added to credit transfer batch |
-| purchase_transaction_authorized | Payment authorized at bank |
-| purchase_transaction_awaiting_authorization | Payment awaiting authorization at bank |
+| purchase_transaction_authorized | Payment authorized by the bank |
+| purchase_transaction_awaiting_authorization | Payment awaiting authorization by the bank |
 | purchase_transaction_batch_cancelled | Credit transfer batch cancelled |
 | purchase_transaction_batch_created | Purchase transaction batch created |
 | purchase_transaction_created | Transaction created |
 | purchase_transaction_deleted | Transaction deleted |
-| purchase_transaction_executing | Payment in execution |
-| purchase_transaction_paid | Payment succeeded |
-| purchase_transaction_pending | Payment pending |
-| purchase_transaction_rejected | Payment rejected |
+| purchase_transaction_executing | Payment in execution at the bank |
+| purchase_transaction_paid | Payment succeeded at the bank |
+| purchase_transaction_pending | Payment pending at the bank |
+| purchase_transaction_rejected | Payment rejected by the bank |
 | purchase_transaction_technically_validated | Payment technically approved by the bank |
 | recurring_sales_invoice_auto_send_forcefully_disabled | The invoice could not be sent automatically, sending automatically is disabled. Re-enable automatic sending manually after resolving the issue. |
 | recurring_sales_invoice_created | Recurring invoice created |
