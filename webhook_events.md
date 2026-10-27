@@ -22,7 +22,7 @@
 | administration_payments_without_proof_activated | Activated payments without proof |
 | administration_payments_without_proof_deactivated | Deactivated payments without proof |
 | administration_update_period_locked_until | Locked period updated |
-| administration_legacy_tax_number_updated | Sales tax number updated |
+| administration_legacy_tax_number_updated | Sales VAT number updated |
 | adyen_banking_bank_transfer_permission_created | Permission to payment rights given |
 | adyen_banking_bank_transfer_permission_revoked | Permission for payment rights withdrawn |
 | adyen_payment_instrument_created | Moneybird card created |
@@ -78,7 +78,7 @@
 | contact_person_destroyed | Contact person deleted |
 | contact_person_updated | Contact person updated |
 | contact_sponsored_subscription_link_requested | Link for a 100% discount subscription requested |
-| contact_tax_number_validated | Tax number validated |
+| contact_tax_number_validated | VAT number validated |
 | credit_invoice_created_from_original | Credit note created based on invoice |
 | default_identity_updated | Default sender address updated |
 | default_identity_verification_document_uploaded | Verification document uploaded to external partner |
