@@ -15,7 +15,7 @@
 | administration_details_edited | Administration changed |
 | administration_id_verified_for_banking_authorization_requirement_activated | New payment rights activated |
 | administration_moneybird_banking_requested | Requested Moneybird Business Account |
-| administration_moneybird_banking_tax_information_sent | Moneybird Business Account Chamber of Commerce and tax authority information sent |
+| administration_moneybird_banking_tax_information_sent | Moneybird Business Account `chamber_of_commerce_abbreviation_term` and tax authority information sent |
 | administration_moneybird_payments_activated | Moneybird Online Payment Methods activated |
 | administration_payments_without_proof_activated | Activated payments without proof |
 | administration_payments_without_proof_deactivated | Deactivated payments without proof |
